@@ -23,6 +23,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<p>Checkout</p>
 
+	
+<button type = "button" onclick = fetch('http://httpbin.org/get')
+  .then((response) => {
+    return response.json();
+  })
+  .then((myJson) => {
+    console.log(myJson);
+	});></button>
 
 <a href="index.html">Page1</a>
 <a href="page2.html">Page2</a>
