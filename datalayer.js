@@ -1,1 +1,3 @@
 datalayer = [];
+
+console.log(datalayer);
